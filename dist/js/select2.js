@@ -5201,5 +5201,3 @@ define('jquery.select2',[
 
   return Select2;
 });
-
-jQuery.fn.select2.amd = { define: define, require: require }; }());
