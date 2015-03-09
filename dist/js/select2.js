@@ -5201,3 +5201,5 @@ define('jquery.select2',[
 
   return Select2;
 });
+
+}());
