@@ -58,7 +58,7 @@
   },
     "browserify": {
         "transform": [
-            "decomponentify", "deamdify", "deglobalify"
+            "deamdify"
         ]
     }
 }
