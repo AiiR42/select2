@@ -1,5 +1,3 @@
-global.jQuery = require("jquery");
-
 (function() { if (window.define) { var define = window.define; } if (window.require) { var require = window.require; } if (window.jQuery && jQuery.fn && jQuery.fn.select2 && jQuery.fn.select2.amd) { var define = jQuery.fn.select2.amd.define; var require = jQuery.fn.select2.amd.require; }/**
  * @license almond 0.2.9 Copyright (c) 2011-2014, The Dojo Foundation All Rights Reserved.
  * Available via the MIT or new BSD license.
@@ -5171,7 +5169,7 @@ define('jquery.select2',[
 ], function ($, Select2, Defaults) {
   // Force jQuery.mousewheel to be loaded if it hasn't already
   try {
-    require('jquery-mousewheel');
+    require('jquery.mousewheel');
   } catch (Exception) { }
 
   if ($.fn.select2 == null) {
